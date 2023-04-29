@@ -3,8 +3,15 @@
 Import packages, lib
 
 ```
-pip install pygame
-pip install sklearn
+pip install virtualenv
+python -m virtualenv pygame_clustering
+
+cd pygame_clustering
+scripts\activate 
+
+pip install -r requirements.txt
+
+py predict_point_pygame.py
 ```
 
 ## Home Screen
